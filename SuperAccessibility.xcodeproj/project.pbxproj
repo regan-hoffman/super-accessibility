@@ -13,6 +13,9 @@
 		D715A29E25EC854500D9E563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D715A29D25EC854500D9E563 /* Assets.xcassets */; };
 		D715A2A125EC854500D9E563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D715A2A025EC854500D9E563 /* Preview Assets.xcassets */; };
 		D715A2A425EC854500D9E563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D715A2A225EC854500D9E563 /* LaunchScreen.storyboard */; };
+		D715A2AD25EC85B000D9E563 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A2AC25EC85B000D9E563 /* ScaledFont.swift */; };
+		D715A2B025EC85FD00D9E563 /* Cabin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D715A2AF25EC85FD00D9E563 /* Cabin.ttf */; };
+		D715A2B425EC883C00D9E563 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D715A2B325EC883C00D9E563 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D715A2A025EC854500D9E563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D715A2A325EC854500D9E563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D715A2A525EC854500D9E563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D715A2AC25EC85B000D9E563 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+		D715A2AF25EC85FD00D9E563 /* Cabin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabin.ttf; sourceTree = "<group>"; };
+		D715A2B325EC883C00D9E563 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		D715A29625EC854300D9E563 /* SuperAccessibility */ = {
 			isa = PBXGroup;
 			children = (
+				D715A2B325EC883C00D9E563 /* Localizable.strings */,
+				D715A2AF25EC85FD00D9E563 /* Cabin.ttf */,
 				D715A29725EC854300D9E563 /* AppDelegate.swift */,
 				D715A29925EC854300D9E563 /* SceneDelegate.swift */,
 				D715A29B25EC854300D9E563 /* ContentView.swift */,
+				D715A2AC25EC85B000D9E563 /* ScaledFont.swift */,
 				D715A29D25EC854500D9E563 /* Assets.xcassets */,
 				D715A2A225EC854500D9E563 /* LaunchScreen.storyboard */,
 				D715A2A525EC854500D9E563 /* Info.plist */,
@@ -132,8 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D715A2B425EC883C00D9E563 /* Localizable.strings in Resources */,
 				D715A2A425EC854500D9E563 /* LaunchScreen.storyboard in Resources */,
 				D715A2A125EC854500D9E563 /* Preview Assets.xcassets in Resources */,
+				D715A2B025EC85FD00D9E563 /* Cabin.ttf in Resources */,
 				D715A29E25EC854500D9E563 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +158,7 @@
 			files = (
 				D715A29825EC854300D9E563 /* AppDelegate.swift in Sources */,
 				D715A29A25EC854300D9E563 /* SceneDelegate.swift in Sources */,
+				D715A2AD25EC85B000D9E563 /* ScaledFont.swift in Sources */,
 				D715A29C25EC854300D9E563 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +303,7 @@
 				DEVELOPMENT_TEAM = 765G848Q7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SuperAccessibility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +325,7 @@
 				DEVELOPMENT_TEAM = 765G848Q7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SuperAccessibility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
