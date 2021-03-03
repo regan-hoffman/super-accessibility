@@ -1,7 +1,20 @@
 # About
 Super Accessibility is an app to explore working with Accessibility in SwiftUI.
 
-## Dynamic Text
+# Using the Accessibility Inspector
+Use the Accessibility Inspector to easily check accessibility. 
+
+1. Open Inspector
+        
+        Xcode -> Open Developer Tools -> Accessibility Inspector
+
+2. Attach the Inspector to a simulator or device.
+
+    a. To use VoiceOver, click the target and then click on the simulator. Press the play button for VoiceOver to read over the screen. 
+
+    b. To test Font Size, click settings in the upper right of the Inspector. Increases or decrease the font size of the device.
+
+# Dynamic Text
 SwiftUI in iOS14 scales automatically with both system fonts and custom fonts.
 
 Unfortunately, if an app uses SwiftUI and supports iOS13, text does not scale dynamically with custom fonts. 
