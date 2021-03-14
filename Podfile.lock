@@ -1,0 +1,26 @@
+PODS:
+  - AccessibilitySnapshot (0.4.1):
+    - AccessibilitySnapshot/Core (= 0.4.1)
+    - AccessibilitySnapshot/SnapshotTesting (= 0.4.1)
+  - AccessibilitySnapshot/Core (0.4.1)
+  - AccessibilitySnapshot/SnapshotTesting (0.4.1):
+    - AccessibilitySnapshot/Core
+    - SnapshotTesting (~> 1.0)
+  - SnapshotTesting (1.8.2)
+
+DEPENDENCIES:
+  - AccessibilitySnapshot
+  - SnapshotTesting (~> 1.8.1)
+
+SPEC REPOS:
+  trunk:
+    - AccessibilitySnapshot
+    - SnapshotTesting
+
+SPEC CHECKSUMS:
+  AccessibilitySnapshot: 7d696575ee0df4371dde653b3087aaa9cfe4c300
+  SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
+
+PODFILE CHECKSUM: 60b67183a9eacffcf2e9edaed26623fa3da782d1
+
+COCOAPODS: 1.10.1

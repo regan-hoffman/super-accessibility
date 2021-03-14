@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C925A0504A5C2FA0E9339607 /* Pods_SuperAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F120C13F871EED06AFB0DA0F /* Pods_SuperAccessibility.framework */; };
+		CD389D827E9ECC7EA4AE6CD3 /* Pods_SuperAccessibilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C015C04DECFA0B343C7929B6 /* Pods_SuperAccessibilityTests.framework */; };
 		D715A29825EC854300D9E563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A29725EC854300D9E563 /* AppDelegate.swift */; };
 		D715A29A25EC854300D9E563 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A29925EC854300D9E563 /* SceneDelegate.swift */; };
 		D715A29C25EC854300D9E563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A29B25EC854300D9E563 /* ContentView.swift */; };
@@ -16,9 +18,25 @@
 		D715A2AD25EC85B000D9E563 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A2AC25EC85B000D9E563 /* ScaledFont.swift */; };
 		D715A2B025EC85FD00D9E563 /* Cabin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D715A2AF25EC85FD00D9E563 /* Cabin.ttf */; };
 		D715A2B425EC883C00D9E563 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D715A2B325EC883C00D9E563 /* Localizable.strings */; };
+		D79A3B2025F45CE400101241 /* SuperAccessibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A3B1F25F45CE400101241 /* SuperAccessibilityTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D79A3B2225F45CE400101241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D715A28C25EC854300D9E563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D715A29325EC854300D9E563;
+			remoteInfo = SuperAccessibility;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0BF860E4DD1C4FCEE1E7F1E5 /* Pods-SuperAccessibilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAccessibilityTests.release.xcconfig"; path = "Target Support Files/Pods-SuperAccessibilityTests/Pods-SuperAccessibilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DE61172C0A4C0C6F4C23EA9 /* Pods-SuperAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAccessibility.debug.xcconfig"; path = "Target Support Files/Pods-SuperAccessibility/Pods-SuperAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
+		3B77240483AF6968743C4D15 /* Pods-SuperAccessibilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAccessibilityTests.debug.xcconfig"; path = "Target Support Files/Pods-SuperAccessibilityTests/Pods-SuperAccessibilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		567A29D5A328554562937948 /* Pods-SuperAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAccessibility.release.xcconfig"; path = "Target Support Files/Pods-SuperAccessibility/Pods-SuperAccessibility.release.xcconfig"; sourceTree = "<group>"; };
+		C015C04DECFA0B343C7929B6 /* Pods_SuperAccessibilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAccessibilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715A29425EC854300D9E563 /* SuperAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715A29725EC854300D9E563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D715A29925EC854300D9E563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +48,10 @@
 		D715A2AC25EC85B000D9E563 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
 		D715A2AF25EC85FD00D9E563 /* Cabin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabin.ttf; sourceTree = "<group>"; };
 		D715A2B325EC883C00D9E563 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D79A3B1D25F45CE400101241 /* SuperAccessibilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAccessibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79A3B1F25F45CE400101241 /* SuperAccessibilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAccessibilityTests.swift; sourceTree = "<group>"; };
+		D79A3B2125F45CE400101241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F120C13F871EED06AFB0DA0F /* Pods_SuperAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +59,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C925A0504A5C2FA0E9339607 /* Pods_SuperAccessibility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A3B1A25F45CE400101241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD389D827E9ECC7EA4AE6CD3 /* Pods_SuperAccessibilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F68E2B8463ACA00BD5C364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE61172C0A4C0C6F4C23EA9 /* Pods-SuperAccessibility.debug.xcconfig */,
+				567A29D5A328554562937948 /* Pods-SuperAccessibility.release.xcconfig */,
+				3B77240483AF6968743C4D15 /* Pods-SuperAccessibilityTests.debug.xcconfig */,
+				0BF860E4DD1C4FCEE1E7F1E5 /* Pods-SuperAccessibilityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F56ACC5D5409D8BC2A33536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F120C13F871EED06AFB0DA0F /* Pods_SuperAccessibility.framework */,
+				C015C04DECFA0B343C7929B6 /* Pods_SuperAccessibilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D715A28B25EC854300D9E563 = {
 			isa = PBXGroup;
 			children = (
 				D715A29625EC854300D9E563 /* SuperAccessibility */,
+				D79A3B1E25F45CE400101241 /* SuperAccessibilityTests */,
 				D715A29525EC854300D9E563 /* Products */,
+				07F68E2B8463ACA00BD5C364 /* Pods */,
+				6F56ACC5D5409D8BC2A33536 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D715A29425EC854300D9E563 /* SuperAccessibility.app */,
+				D79A3B1D25F45CE400101241 /* SuperAccessibilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +140,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D79A3B1E25F45CE400101241 /* SuperAccessibilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79A3B1F25F45CE400101241 /* SuperAccessibilityTests.swift */,
+				D79A3B2125F45CE400101241 /* Info.plist */,
+			);
+			path = SuperAccessibilityTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D715A2A825EC854500D9E563 /* Build configuration list for PBXNativeTarget "SuperAccessibility" */;
 			buildPhases = (
+				D5B31F19A3A830EFBDC98D44 /* [CP] Check Pods Manifest.lock */,
 				D715A29025EC854300D9E563 /* Sources */,
 				D715A29125EC854300D9E563 /* Frameworks */,
 				D715A29225EC854300D9E563 /* Resources */,
@@ -104,6 +170,26 @@
 			productReference = D715A29425EC854300D9E563 /* SuperAccessibility.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D79A3B1C25F45CE400101241 /* SuperAccessibilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79A3B2625F45CE400101241 /* Build configuration list for PBXNativeTarget "SuperAccessibilityTests" */;
+			buildPhases = (
+				AC01F4C2558E11862839B761 /* [CP] Check Pods Manifest.lock */,
+				D79A3B1925F45CE400101241 /* Sources */,
+				D79A3B1A25F45CE400101241 /* Frameworks */,
+				D79A3B1B25F45CE400101241 /* Resources */,
+				30F98BA67FC3A488A5F8C6A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79A3B2325F45CE400101241 /* PBXTargetDependency */,
+			);
+			name = SuperAccessibilityTests;
+			productName = SuperAccessibilityTests;
+			productReference = D79A3B1D25F45CE400101241 /* SuperAccessibilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +201,10 @@
 				TargetAttributes = {
 					D715A29325EC854300D9E563 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					D79A3B1C25F45CE400101241 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D715A29325EC854300D9E563;
 					};
 				};
 			};
@@ -132,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				D715A29325EC854300D9E563 /* SuperAccessibility */,
+				D79A3B1C25F45CE400101241 /* SuperAccessibilityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -149,7 +240,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D79A3B1B25F45CE400101241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F98BA67FC3A488A5F8C6A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperAccessibilityTests/Pods-SuperAccessibilityTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperAccessibilityTests/Pods-SuperAccessibilityTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperAccessibilityTests/Pods-SuperAccessibilityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC01F4C2558E11862839B761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperAccessibilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B31F19A3A830EFBDC98D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperAccessibility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D715A29025EC854300D9E563 /* Sources */ = {
@@ -163,7 +325,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D79A3B1925F45CE400101241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A3B2025F45CE400101241 /* SuperAccessibilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79A3B2325F45CE400101241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D715A29325EC854300D9E563 /* SuperAccessibility */;
+			targetProxy = D79A3B2225F45CE400101241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D715A2A225EC854500D9E563 /* LaunchScreen.storyboard */ = {
@@ -295,6 +473,7 @@
 		};
 		D715A2A925EC854500D9E563 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE61172C0A4C0C6F4C23EA9 /* Pods-SuperAccessibility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +496,7 @@
 		};
 		D715A2AA25EC854500D9E563 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567A29D5A328554562937948 /* Pods-SuperAccessibility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -337,6 +517,46 @@
 			};
 			name = Release;
 		};
+		D79A3B2425F45CE400101241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B77240483AF6968743C4D15 /* Pods-SuperAccessibilityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperAccessibilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reganlaurell.SuperAccessibilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAccessibility.app/SuperAccessibility";
+			};
+			name = Debug;
+		};
+		D79A3B2525F45CE400101241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF860E4DD1C4FCEE1E7F1E5 /* Pods-SuperAccessibilityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperAccessibilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reganlaurell.SuperAccessibilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAccessibility.app/SuperAccessibility";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +574,15 @@
 			buildConfigurations = (
 				D715A2A925EC854500D9E563 /* Debug */,
 				D715A2AA25EC854500D9E563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79A3B2625F45CE400101241 /* Build configuration list for PBXNativeTarget "SuperAccessibilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79A3B2425F45CE400101241 /* Debug */,
+				D79A3B2525F45CE400101241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
