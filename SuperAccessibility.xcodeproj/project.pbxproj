@@ -16,6 +16,7 @@
 		D715A2AD25EC85B000D9E563 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715A2AC25EC85B000D9E563 /* ScaledFont.swift */; };
 		D715A2B025EC85FD00D9E563 /* Cabin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D715A2AF25EC85FD00D9E563 /* Cabin.ttf */; };
 		D715A2B425EC883C00D9E563 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D715A2B325EC883C00D9E563 /* Localizable.strings */; };
+		D72FA9B7260181670051C019 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FA9B6260181670051C019 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D715A2AC25EC85B000D9E563 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
 		D715A2AF25EC85FD00D9E563 /* Cabin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabin.ttf; sourceTree = "<group>"; };
 		D715A2B325EC883C00D9E563 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D72FA9B6260181670051C019 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D715A2AF25EC85FD00D9E563 /* Cabin.ttf */,
 				D715A29725EC854300D9E563 /* AppDelegate.swift */,
 				D715A29925EC854300D9E563 /* SceneDelegate.swift */,
+				D72FA9B6260181670051C019 /* HomeView.swift */,
 				D715A29B25EC854300D9E563 /* ContentView.swift */,
 				D715A2AC25EC85B000D9E563 /* ScaledFont.swift */,
 				D715A29D25EC854500D9E563 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				D715A29825EC854300D9E563 /* AppDelegate.swift in Sources */,
 				D715A29A25EC854300D9E563 /* SceneDelegate.swift in Sources */,
 				D715A2AD25EC85B000D9E563 /* ScaledFont.swift in Sources */,
+				D72FA9B7260181670051C019 /* HomeView.swift in Sources */,
 				D715A29C25EC854300D9E563 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
