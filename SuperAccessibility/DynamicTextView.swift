@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DynamicTextView.swift
 //  SuperAccessibility
 //
 //  Created by Regan Laurell on 2/28/21.
@@ -7,14 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View, Equatable{
-    var body: some View {
-        DynamicTextView().equatable()
-    }
-    
-}
-
-struct DynamicTextView: View, Equatable {
+struct DynamicTextView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -42,12 +35,5 @@ struct DynamicTextView: View, Equatable {
                     .padding()
             }
         }.navigationBarTitle(Text("Coporate Ipsum"), displayMode: .automatic)
-    }
-}
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

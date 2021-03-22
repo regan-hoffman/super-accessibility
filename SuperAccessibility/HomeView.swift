@@ -11,8 +11,8 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // TODO: Navigate without a copy of Content View
-                NavigationLink(destination: ContentView()) {
+                // TODO: Navigate without a copy of DynamicTextView
+                NavigationLink(destination: DynamicTextView()) {
                     Text("Dynamic Text").padding()
                 }
 //                .isDetailLink(true)
